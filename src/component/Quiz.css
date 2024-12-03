@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .quiz,
+  .settings {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .settings h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .settings form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .settings label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .settings input,
+  .settings select,
+  .settings button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .settings button {
+    background-color: #2575fc;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .settings button:hover {
+    background-color: #1e5dc1;
+  }
+  
+  .quiz h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .options button {
+    background-color: #fff;
+    border: 2px solid #2575fc;
+    color: #2575fc;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 50%;
+    max-width: 300px;
+    transition: all 0.3s;
+  }
+  
+  .options button.correct {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .options button.incorrect {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .options button:hover:not(.correct):not(.incorrect) {
+    background-color: #2575fc;
+    color: white;
+  }
+  
+  .options button:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+  }
+  
+  .quiz .loading {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  .score h1 {
+    font-size: 2rem;
+    color: #2575fc;
+    margin-bottom: 20px;
+  }
+  
+  .score p {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  

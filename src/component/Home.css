@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #2575fc;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .hero {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff3b2e;
+    text-decoration: none;
+  }
+  
+  .categories {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .category-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .category-item {
+    background: white;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+  }
+  
+  .category-item h3 {
+    color: #2575fc;
+  }
+  
+  .category-item p {
+    color: #666;
+  }
+  
+  .quiz {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .options button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid #2575fc;
+    background: #fff;
+    color: #2575fc;
+  }
+  
+  .options button:hover {
+    background: #2575fc;
+    color: white;
+  }
+  
+  .score h1 {
+    color: #2575fc;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 0.9rem;
+  }
+  

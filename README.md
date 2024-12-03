@@ -1,6 +1,6 @@
 # Trivia Quiz Application 
 
-Welcome to the **Quizzes Trivia Application**! This is a React-based trivia application where users can answer fun triviq quiz questions and see their results. The project demonstrates an adaptive and responsive web application built with React.
+Welcome to the **Quizzes Trivia Application**! This is a React-based trivia application where users can answer fun trivia questions, test their knowledge, and see their results. The project demonstrates an adaptive and responsive web application built with React.
 
 ---
 

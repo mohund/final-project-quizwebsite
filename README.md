@@ -2,6 +2,8 @@
 
 Welcome to the **Quizzes Trivia Application**! This is a React-based trivia application where users can answer fun trivia questions, test their knowledge, and see their results. The project demonstrates an adaptive and responsive web application built with React.
 
+ChatGPT-4o was used alongside the slides to expand our knowledge of certain topics, and improve the code. We also used it to help resolve bugs we came across during development. Many issues were addressed successfully.
+ChatGPT-4o was also utilized as a helpful resource to assist in creating basic CSS styling for this project.
 ---
 
 ## Features
@@ -22,7 +24,7 @@ You can access the app directly via the following link to github pages:
 Simply click the link and start enjoying the quiz!
 
 ## Screenshots 
-ChatGPT 4o was used to create basic CSS styling for this project. 
+
 ### Home Page
 ![Home Page](homepage.png)
 

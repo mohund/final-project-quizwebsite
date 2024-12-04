@@ -22,7 +22,7 @@ You can access the app directly via the following link to github pages:
 Simply click the link and start enjoying the quiz!
 
 ## Screenshots 
-
+ChatGPT 4o was used to create basic CSS styling for this project. 
 ### Home Page
 ![Home Page](homepage.png)
 
